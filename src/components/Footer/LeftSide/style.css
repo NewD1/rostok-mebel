@@ -1,0 +1,24 @@
+.footer_left_side {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.footer_navigation {
+	margin: 40px 32px 0 0;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.footer_navigation a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.footer_nav_btn {
+	margin-bottom: 4px;
+}

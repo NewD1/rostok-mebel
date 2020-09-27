@@ -1,0 +1,76 @@
+.header_top {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	max-width: 1280px;
+	width: 100%;
+	padding: 12px 0;
+	border-bottom: 1px solid #cccccc;
+}
+
+.header_top_navigation {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 0 106px 0 24px;
+}
+
+.header_top_nav_btn {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.05em;
+	color: #777777;
+	margin-right: 24px;
+}
+
+.header_top_nav_btn:last-child {
+	margin-right: 0;
+}
+
+.header_top_nav_btn a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.city_choice {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-right: 50px;
+}
+
+.your_city {
+	display: flex;
+	align-items: center;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.05em;
+	color: #777777;
+	margin-right: 0.5em;
+}
+
+.your_city span {
+	margin-left: 0.5em;
+}
+
+.city_name {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 16px;
+	letter-spacing: 0.05em;
+	color: #134094;
+}
+
+.city_name span {
+	margin-right: 4px;
+}

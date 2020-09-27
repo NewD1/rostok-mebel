@@ -1,0 +1,26 @@
+.footer_common_info {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+  justify-content: flex-start;
+  font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 22px;
+  color: #ffffff;
+  margin: 40px 26px 0 38px;
+}
+
+.rostok_svg {
+	align-self: flex-end;
+}
+
+.footer_text:first-child {
+	margin-bottom: 28px;
+}
+
+.footer_text_line {
+  margin-bottom: 4px;
+}
+

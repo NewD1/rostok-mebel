@@ -1,0 +1,38 @@
+.home_novelties {
+	display: flex;
+	margin-bottom: 40px;
+}
+
+.home_novelties a {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.home_novelties_main_title {
+	font-family: Roboto Condensed;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 30px;
+	color: #333333;
+	margin-bottom: 18px;
+}
+
+.home_novelties_item {
+	margin-right: 24px;
+}
+
+.home_novelties_item:last-child {
+	margin-right: 0;
+}
+
+.home_novelties_item_text {
+	font-family: Roboto Condensed;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 20px;
+	text-align: center;
+	color: #333333;
+}

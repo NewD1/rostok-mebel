@@ -1,0 +1,29 @@
+.swiper-container {
+	width: 100%;
+	margin-bottom: 36px;
+}
+
+.swiper-slide {
+	max-height: 440px;
+	display: flex;
+}
+
+.swiper-slide img {
+	object-fit: cover;
+}
+
+.swiper-pagination {
+	bottom: 12px !important;	
+}
+
+.swiper-pagination-bullet {
+	width: 14px !important;
+	height: 14px !important;
+	background: none !important;
+	opacity: 1 !important;
+	border: 2px solid #333333;
+}
+
+.swiper-pagination-bullet-active {
+	background-color: #333333 !important;
+}

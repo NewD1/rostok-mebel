@@ -1,0 +1,35 @@
+.catalog_subpage_page_changer {
+	display: flex;
+	margin: 60px auto;
+}
+
+.catalog_subpage_page_changer_page_link {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	margin-right: 4px;
+
+	width: 40px;
+	height: 40px;
+	background: #ffffff;
+	border-radius: 2px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 22px;
+	color: #333333;
+}
+
+.catalog_subpage_page_changer_page_link:last-child {
+	margin-right: 0;
+}
+
+.catalog_subpage_page_changer_page_link_active {
+	color: #ffffff;
+	background: #333333;
+	border-radius: 4px;
+}

@@ -1,0 +1,134 @@
+.header_middle {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	max-width: 1232px;
+	margin: 0 auto 44px auto;
+	width: 100%;
+}
+
+.middle_logo {
+	margin: 16px 32px 0 0;
+}
+
+.middle_search_container {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin: 40px 35px 0 0;
+}
+
+.middle_search_line {
+	background: #ffffff;
+	border: 2px solid #134094;
+	border-right: none;
+	box-sizing: border-box;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	width: 325px;
+	height: 40px;
+}
+
+.middle_search_button {
+	width: 79px;
+	height: 40px;
+	background: #134094;
+	font-family: Roboto Condensed;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+	color: #ffffff;
+	border: none;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+.header_shedule {
+	margin: 38px 42px 0 0;
+}
+
+.header_time_text {
+	display: flex;
+	align-items: center;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.header_time_text svg {
+	margin-right: 0.5em;
+}
+
+.work_time {
+	color: #333333;
+	margin-bottom: 4px;
+}
+
+.rest_time {
+	color: #eb5757;
+}
+
+.header_numbers {
+	margin: 36px 35px 0 0;
+}
+
+.header_number_text {
+	display: flex;
+	align-items: center;
+	font-family: Roboto Condensed;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+	color: #333333;
+}
+
+.header_number_text svg {
+	margin-right: 0.5em;
+}
+
+.shop_cart {
+	margin-top: 36px;
+}
+
+.shop_cart a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-decoration: none;
+}
+
+.cart_description {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cart_description span {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 22px;
+	color: #333333; 
+	margin-right: 4px;
+}
+
+.cart_widget {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 24px;
+	height: 20px;
+	background: #333333;
+	border-radius: 16px;
+}
+
+.cart_widget span {
+	margin-right: 0;
+	color: #fff;
+}
